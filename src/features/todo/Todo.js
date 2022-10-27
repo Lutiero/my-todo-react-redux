@@ -11,7 +11,7 @@ export function Todo() {
   return (
     <section>
         <div className={styles.todoInput}>
-        <form onSubmit={(e) => {e.preventDefault() ;dispatch(addTodo(todoInput))}}>
+        <form onSubmit={(e) => {e.preventDefault(); dispatch(addTodo(todoInput)); setTodoInput('');}}>
             <input className={styles.input} onChange={(e) => setTodoInput(e.target.value)} value={todoInput} type="text" name="todo" placeholder="Create a new Todo"></input>
         </form>
         </div>
