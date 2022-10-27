@@ -1,0 +1,39 @@
+:root {
+  background-color: #181824;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 34px
+}
+
+.todo-container{
+  min-width: 700px;
+  margin: -68px auto 0 auto;
+}
+
+
